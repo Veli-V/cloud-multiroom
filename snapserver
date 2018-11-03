@@ -23,6 +23,6 @@ START_SNAPSERVER=true
 #                                       optional process priority [-20..19]
 #   --user arg                          the user[:group] to run snapserver as when daemonized
 
-USER_OPTS="--user snapserver:snapserver"
+USER_OPTS="--user mopidy:mopidy"
 
 SNAPSERVER_OPTS="-d -s pipe:///tmp/snapfifo?name=Radio&sampleformat=48000:16:2&codec=flac -s file:///home/user/Musik/Some%20wave%20file.wav?name=File"
