@@ -85,5 +85,3 @@ COPY start.sh /start.sh
 USER mopidy
 
 ENTRYPOINT ["/usr/bin/dumb-init", "/entrypoint.sh"]
-CMD ["echo 'kala'"]
-#CMD ["/start.sh"]
